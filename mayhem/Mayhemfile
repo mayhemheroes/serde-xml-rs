@@ -1,0 +1,6 @@
+project: serde-xml-rs
+target: serde-xml-fuzz
+
+cmds:
+    - cmd: ./serde-xml-fuzz
+      libfuzzer: true
